@@ -17,7 +17,148 @@ body {
   line-height: 1.3;
 }
 
-#logo {
-  font-size: 42px;
+.form-section {
+  max-width: 960px;
+  margin-left: 16px;
+}
+
+.input-field input {
+  width: 345px;
+  height: 50px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+}
+
+.input-field input::-webkit-input-placeholder {
+  color: #141212;
+}
+
+.input-field input:-ms-input-placeholder {
+  color: #141212;
+}
+
+.input-field input::-ms-input-placeholder {
+  color: #141212;
+}
+
+.input-field input::placeholder {
+  color: #141212;
+}
+
+.input-field input:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.radio-gender label {
+  margin-left: -20px;
+}
+
+.radio-gender input {
+  height: 18px;
+  width: 18px;
+}
+
+.radio-gender input:not(:last-child) {
+  margin-right: 30px;
+}
+
+.drop-down select {
+  width: 345px;
+  height: 50px;
+  margin-top: 30px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+}
+
+.drop-down select:last-child {
+  margin-top: 12px;
+}
+
+.drop-down select::-webkit-input-placeholder {
+  color: #141212;
+}
+
+.drop-down select:-ms-input-placeholder {
+  color: #141212;
+}
+
+.drop-down select::-ms-input-placeholder {
+  color: #141212;
+}
+
+.drop-down select::placeholder {
+  color: #141212;
+}
+
+.left-side .images {
+  left: 0px;
+  width: 50%;
+}
+
+button, .button {
+  margin-top: 28px;
+  padding: 1.25rem 2.25rem;
+  font-family: 'Sora', sans-serif;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background: -webkit-gradient(linear, left top, right top, from(#4E33E2), to(#8728E9));
+  background: linear-gradient(to right, #4E33E2, #8728E9);
+  color: white;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 63.9375em) {
+  .hide-for-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 64em) {
+  .hide-for-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 64em) {
+  .logo-color-change {
+    color: white;
+  }
+}
+
+.logo {
+  font-size: 2.625rem;
+  padding-left: 17px;
+  margin-top: 18px;
+  font-weight: 700;
+}
+
+#bgYellowImg {
+  margin-top: -20px;
 }
 /*# sourceMappingURL=style.css.map */
