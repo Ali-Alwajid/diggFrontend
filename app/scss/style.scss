@@ -1,7 +1,16 @@
 @import "variables";
+@import "mixins";
 @import "globals";
 
 
-#logo{
-    font-size: 42px;
+.logo{
+    font-size: $logoSize;
+    position: relative;
+    padding-left: 17px;
+    margin-top: 18px;
+    font-weight: 700;
+}
+
+#bgYellowImg{
+    margin-top: -20px;
 }

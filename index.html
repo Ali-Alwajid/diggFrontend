@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Sora:wght@300;500;600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="/app/scss/style.css">
+    <title>Apply Form</title>
+</head>
+<body>
+
+    <section class="form-section flex">
+
+        
+        <div class="left-side hide-for-mobile">
+            <img class="images" src="/images/bg_left.png" alt="main background">
+            <img class="flex-ai-c" src="/images/behind_guy.png" alt="guy">
+        </div>
+
+
+        <div class="right-side">
+
+            <div class="header flex flex-jc-sb">
+                <p class="logo logo-color-change">digg</p>
+            </div>
+
+            <h3>Apply now to work in Dubai</h3>
+        <form>
+            <div class="input-field">
+                <input type="text" id="firstName" placeholder="First Name"/>
+                <input type="text" id="lastName" placeholder="Last Name"/>
+                <input type="date" id="dob" placeholder="Date of birth"/>
+                <input type="text" class="hide-for-desktop" id="userName" placeholder="User name"/>
+                
+            </div>
+            <h4>Gender</h4>
+
+            <div class="radio-gender flex">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+
+            <div class="drop-down">
+                <select name="nationality" id="nationality" >
+                    <option value="default">Nationality</option>
+                    <option value="op2">Option2</option>
+                    <option value="op3">Option3</option>
+                    <option value="op4">Option4</option>
+                </select>
+                <select name="nationality" id="nationality" >
+                    <option value="default">Country of residence</option>
+                    <option value="op2">Option2</option>
+                    <option value="op3">Option3</option>
+                    <option value="op4">Option4</option>
+                </select>
+            </div>
+
+            <h3>How we can contact you?</h3>
+
+            <div class="contact-info input-field">
+                <input type="text" id="number" placeholder="Contact number"/>
+                <input type="text" id="email" placeholder="Email address"/>
+            </div>
+
+            <button type="button">Apply Now</button>
+
+        </form>
+        </div>
+        
+    </section>
+
+    
+
+
+    
+    <!-- <div class="bodyText">
+        <p>Apply now to work in Dubai</p>
+        <form class="application-form">
+            <input type="text" name="firstName" id="firstName" placeholder=" " />
+            <label>First Name</label>
+            <input type="text" name="firstName" id="firstName" placeholder=" " />
+            <label>Last Name</label>
+        </form>
+    </div> -->
+
+    <script src="app/js/script.js"></script>
+</body>
+</html>
